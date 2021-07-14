@@ -1,7 +1,6 @@
 {
   "name": "filesystem",
   "version": "1.0.0",
-  "main": "FileSystem.js",
   "dependencies": {
     "denque": "^1.5.0",
     "express": "^4.17.1",
@@ -15,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharooque7/nodejs-filesystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharooque7/nodejs-filesystem/issues"
+  },
+  "homepage": "https://github.com/sharooque7/nodejs-filesystem#readme",
   "description": ""
 }
