@@ -6,8 +6,7 @@ const http = require("http");
 http
   .createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text-html" });
-    const Path =
-      "C:/Users/mohammed.sharooque/Documents/Jquery/Nodejs/FileSystem/Path";
+    const Path = "./Path";
 
     fs.writeFile("./Path/date-time.txt", TimeStamp.toString(), (err) => {
       if (err) throw err;
