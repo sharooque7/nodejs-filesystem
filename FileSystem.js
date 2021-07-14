@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 let TimeStamp = +new Date();
-
+const port = process.env.port || 5000;
 const http = require("http");
 http
   .createServer(function (req, res) {
@@ -22,4 +22,4 @@ http
       res.end();
     });
   })
-  .listen(3000);
+  .listen(port);
